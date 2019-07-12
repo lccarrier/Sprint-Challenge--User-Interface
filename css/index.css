@@ -162,3 +162,115 @@ footer nav a {
  img.image-top {
     margin: 40px 0px 20px 0px;
   }
+
+
+.intro {
+    border-bottom: 1px dashed black;
+}
+
+.about {
+    margin: 20px;
+}
+
+.card-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 370px;
+    margin: 30px 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-block {
+    margin: 20px 20px 40px 20px;
+}
+
+button.btn {
+    background-color: white;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 16px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0px;
+    cursor: pointer
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.bottom-card {
+        width: 370px;
+        margin: 30px 15px 15px 15px;
+        
+}
+
+.input {
+    width: 100%;
+}
+
+.form-inline {
+    margin: 15px 0px;
+}
+
+input {
+    width: 340px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 14px;
+    height: 40px;
+    margin: 40px 0px 20px 0px;
+    display: block;
+    
+}
+
+.btn-sub {
+    background-color: black;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 16px;
+    height: 40px;
+    width: 130px;
+    margin: 0px 0px 20px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+
+::placeholder { 
+    padding-left: 10px;
+  }
+
+
+input:focus {
+    border: 2px solid grey;
+    outline: none;
+}
+
+input:click {
+    outline: none;
+}
+
+.item-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 225px;
+    margin: 30px 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.item-img {
+    width: 225px;
+}
