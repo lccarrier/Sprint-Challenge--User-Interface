@@ -144,3 +144,155 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My code */
+.navbar {
+      display:flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-top: 20px;
+  }
+
+ .navbar nav a {
+     color: black;
+     text-decoration: none;
+     margin: 0px 35px;
+ }
+
+ img.image-top {
+    margin: 40px 0px 20px 0px;
+  }
+
+
+.intro {
+    border-bottom: 1px dashed black;
+}
+
+.about {
+    margin: 20px;
+}
+
+.card-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 370px;
+    margin: 30px 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-block {
+    margin: 20px 20px 40px 20px;
+}
+
+button.btn {
+    background-color: white;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 16px;
+    height: 40px;
+    width: 130px;
+    margin: 20px 0px 30px 0px;
+    cursor: pointer
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.bottom-card {
+        width: 370px;
+        margin: 30px 15px 15px 15px;
+        
+}
+
+.input {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.form-inline {
+    margin: 15px 0px;
+}
+
+input {
+    width: 340px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 14px;
+    height: 40px;
+    margin: 40px 0px 20px 0px;
+    display: block;
+    padding: 10px;
+    
+}
+
+.btn-sub {
+    background-color: black;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 16px;
+    height: 40px;
+    width: 130px;
+    margin: 0px 0px 40px 0px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+input:focus {
+    border: 2px solid grey;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+
+.item-grid {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 225px;
+    margin: 30px 15px 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
+.item-img {
+    width: 225px;
+}
+
+.comm {
+    margin: 10px 0px;
+}
+
+
+
+
+h1 {
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+
+button:hover {
+        transform: scale(1.04); 
+}
+
+button:focus {
+    outline: none;
+}
+.image-top {
+    width: 100%;
+}
